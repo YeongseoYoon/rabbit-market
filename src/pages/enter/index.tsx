@@ -57,6 +57,7 @@ const Enter: NextPage = () => {
             <Button text={"Get one-time password"} />
           ) : null}
         </form>
+
         <div className="mt-8">
           <div className="relative">
             <div className="absolute w-full border-t border-gray-300" />
