@@ -9,7 +9,7 @@ export default function Forms() {
         type="text"
         placeholder="Username"
         required
-      />{" "}
+      />
       <input {...register("email")} type="email" placeholder="Email" required />
       <input
         {...register("password")}
