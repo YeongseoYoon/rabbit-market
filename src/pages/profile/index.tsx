@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 import Link from "next/link";
-import Layout from "../../libs/components/Layout";
+import Layout from "@/libs/components/Layout";
 
 const Profile: NextPage = () => {
   return (

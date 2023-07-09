@@ -1,8 +1,8 @@
 import type { NextPage } from "next";
-import Button from "../../../libs/components/Button";
-import Input from "../../../libs/components/Input";
-import TextArea from "../../../libs/components/TextArea";
-import Layout from "../../../libs/components/Layout";
+import Button from "@/libs/components/Button";
+import Input from "@/libs/components/Input";
+import TextArea from "@/libs/components/TextArea";
+import Layout from "@/libs/components/Layout";
 
 const Create: NextPage = () => {
   return (
