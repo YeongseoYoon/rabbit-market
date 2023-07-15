@@ -41,10 +41,11 @@ const ItemDetail: NextPage = () => {
               <p className="text-sm font-medium text-gray-700">
                 {data?.product?.user?.name}
               </p>
-              <Link href={`/users/profiles/${data?.product?.user?.id}`}>
-                <a className="text-xs font-medium text-gray-500">
-                  View profile &rarr;
-                </a>
+              <Link
+                href={`/users/profiles/${data?.product?.user?.id}`}
+                className="text-xs font-medium text-gray-500"
+              >
+                View profile &rarr;
               </Link>
             </div>
           </div>
@@ -109,7 +110,7 @@ const ItemDetail: NextPage = () => {
                 <div className="w-full h-56 mb-4 bg-slate-300" />
                 <h3 className="-mb-1 text-gray-700">{product.name}</h3>
                 <span className="text-sm font-medium text-gray-900">
-                  ${product.price + ""}
+                  ${product.price}
                 </span>
               </div>
             ))}
